@@ -6,66 +6,25 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-.menu{
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  padding-left: 20px;
-  position: relative;
-}
-nav{
-  text-align: right;
-  align-items: center;
-  width: 100%;
-  font-size: 20px;
-  }
-  nav ul{
-    display: inline-block;
-    list-style-type: none;
-  }
-  nav ul li{
-    display: inline-block;
-    margin-right: 15px;
-  }
-  a{
-    text-decoration: none;
-    color: #1A1A1A;
-  }
-  .s-con p{
-    color: #1A1A1A;
-    font-size: 18px;
-  }
-
-.container{
-  display: flex;
+.row{
   padding: 40px;
-  justify-content: space-around;
   align-items: center;
-  background: radial-gradient(#fff, #565555);
 }
-  .container img{
-    width: 550px;
-  }
-
-
-table.center{
-  margin-left: auto;
-  margin-right: auto;
+h1{
+  font-size: 3.5rem;
 }
-td{
-  padding: 15px;
+.nav-link{
+  font-size: 1.15rem;
 }
-th{
-  text-align: left;
+button{
+  margin-top: 10px;
 }
-
 .products{
   margin: 55px;
 }
 .products img{
   border: 1px solid;
   border-color: #E5E4E4;
-  border-radius: 5%;
 }
 .sneakers img{
   width: 250px;
@@ -82,30 +41,26 @@ th{
   width: 180px;
   font-size: 35px;
 }
-table h3{
-  font-size: 26px;
+.products h4{
+  font-size: 20px;
+}
+h3{
+  padding-left: 40px;
+}
+.contact{
+  padding: 40px 30px 40px;
+}
+h4{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #353535;
   text-align: left;
 }
-.s-con h1{
-  font-size: 45px;
-}
-.con-2{
-  display: flex;
-  padding: 70px;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #E5E4E4;
-}
-.con-2 img{
-  float: right;
-  width: 500px;
-}
-.contact h4{
-  font-size: 23px;
+p{
   color: #353535;
-}
-.contact p{
-  color: #353535;
+  margin-left: 10px;
+  text-align: left;
 }
 .contact ul{
   list-style-type: none;
@@ -113,16 +68,21 @@ table h3{
 .contact ul li a{
   color: #353535;
 }
-
-.footer{
+.pagination {
+   justify-content: center;
+}
+.page-link{
+  color: #1A1A1A;
+}
+footer{
   background-color: #000;
   padding: 30px 30px 30px;
   display: flex;
   align-items: center;
 }
-.footer  p{
+footer  p{
     color: #fff;
-  }
+}
 
   .container-4 {
     padding: 10px 500px 10px 500px;
